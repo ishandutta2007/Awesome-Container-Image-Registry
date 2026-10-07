@@ -29,7 +29,7 @@
 Welcome to the ultimate curated directory of **container image registries**, **open-source OCI artifact repositories**, and **container supply chain security tools**. Whether you are architecting enterprise-grade production Kubernetes clusters with cloud-native registries (such as *Amazon ECR*, *Docker Hub*, *Google Artifact Registry*, and *JFrog Artifactory*), or deploying self-hostable open-source alternatives (like *Harbor*, *Zot*, and *Distribution*), this comprehensive guide covers category leaders, security scanners, and artifact storage solutions.
 
 **Key Container Ecosystem Insights:**
-- ⚓ **Harbor** is the **most widely deployed open-source enterprise container registry**, a **CNCF Graduated project** with **25K+ GitHub stars**, featuring **built-in vulnerability scanning, Cosign image signing, RBAC, and replication**.
+- ⚓ **Harbor** is the **most widely deployed open-source enterprise container registry**, a **CNCF Graduated project** with **25K+ GitHub_Stars**, featuring **built-in vulnerability scanning, Cosign image signing, RBAC, and replication**.
 - 🚀 **Zot** is the **fastest-growing OCI-native container registry**, built directly on the **OCI Distribution Spec v1.1** with **vulnerability scanning, zero database dependencies**, and minimal memory overhead.
 - 🏛️ **Distribution (Docker Registry v2)** serves as the **foundational reference implementation** of the OCI Distribution Specification, underpinning Docker Hub, GitHub Container Registry (GHCR), and major cloud platforms.
 - 🔐 **Supply Chain Security Integrations**: Modern container registries seamlessly integrate with security tools like **Cosign (Sigstore)** for keyless image signing and **Trivy** for CVE vulnerability scanning.
@@ -75,7 +75,7 @@ Welcome to the ultimate curated directory of **container image registries**, **o
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub Stars Count (Descending)* 🌟
+*Sorted by GitHub_Stars_Count (Descending)* 🌟
 
 - **[Trivy](https://github.com/aquasecurity/trivy)** [![Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
   **Comprehensive container security & vulnerability scanner**, Apache-2.0 licensed. **The standard scanner** powering Harbor, Zot, and CI/CD pipelines. Scans OS packages, language dependencies, IaC misconfigurations, and secrets. 🐟
@@ -146,7 +146,7 @@ If you find this repository useful, please consider supporting the project:
 ## ⚠️ Disclaimer
 
 - This is a **community-curated** list — not exhaustive and not an endorsement. ℹ️
-- **Harbor is the most widely deployed open-source registry** — **25K+ GitHub stars**, **CNCF Graduated**, with **vulnerability scanning, signing, and replication** built in. **Zot is the fastest-growing OCI-native registry** with **no database dependency**.
+- **Harbor is the most widely deployed open-source registry** — **25K+ GitHub_Stars**, **CNCF Graduated**, with **vulnerability scanning, signing, and replication** built in. **Zot is the fastest-growing OCI-native registry** with **no database dependency**.
 - **Docker Hub rate limits**: **200 pulls/6 hours anonymous**, **5,000 pulls/6 hours authenticated**. **Paid plans from $9/month**.
 - **Amazon ECR charges $0.10/GB/month** for storage and **$0.09/GB** for data transfer out. **Google Artifact Registry charges $0.10/GB/month**. **Azure ACR Basic is $5/month**.
 - **Open-source registries (Harbor, Zot, Distribution) are not turnkey** — they require **deployment, storage configuration, and ongoing maintenance**. **Always validate registry performance and security with a proof-of-concept** before production deployment. 📦
